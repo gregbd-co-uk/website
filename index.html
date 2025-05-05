@@ -16,7 +16,9 @@
 				$("#content").load("content.html");
 				$("#footer").load("/footer.html");
 				t = "";
-				(document.location.pathname == "") && t = "Home";
+				if (document.location.pathname == "/"){
+					t = "Home";
+				}
 				document.title = document.title.replace("dbgerg", t + document.location.pathname.replace("/", "") + " ");
 			});
 		</script>
