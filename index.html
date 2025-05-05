@@ -15,8 +15,8 @@
 				$("#header").load("/header.html");
 				$("#content").load("content.html");
 				$("#footer").load("/footer.html");
-				console.log(document.location.pathname.replace("/", ""));
-				switch (document.location.pathname.replace("/", "")){
+				console.log(document.location.pathname.replaceAll("/", ""));
+				switch (document.location.pathname.replaceAll("/", "")){
 					case "":
 						t = "Home";
 						break;
@@ -31,7 +31,7 @@
 						break;
 				}
 				console.log(t);
-				document.title = document.title.replace("dbgerg", t.replace("/", ""));
+				document.title = document.title.replaceAll("dbgerg", t.replaceAll("/", ""));
 			});
 		</script>
 	</head>
