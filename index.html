@@ -14,12 +14,24 @@
 			$(function(){
 				$("#header").load("/header.html");
 				$("#content").load("content.html");
-				$("#footer").load("/footer.html");
-				t = "";
-				if (document.location.pathname == "/"){
-					t = "Home";
+				$("#footer").load("/footer.html");				
+				switch (document.location.pathname){
+					case "/":
+						t = "Home";
+						break;
+					case "/contact":
+					case "/contact/":
+						t = "Contact us";
+						break;
+					case "/gallery":
+					case "/gallery/":
+						t = "Product Gallery";
+						break;
+					default:
+						t = document.location.pathname;
+						break;
 				}
-				document.title = document.title.replace("dbgerg", t + document.location.pathname.replace("/", "") + " ");
+				document.title = document.title.replace("dbgerg", t.replace("/", ""));
 			});
 		</script>
 	</head>
