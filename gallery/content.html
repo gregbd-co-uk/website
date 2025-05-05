@@ -1,1 +1,85 @@
-This is a test
+<style>
+	body {
+		font-family: sans-serif;
+		padding: 2rem;
+		max-width: 1200px;
+		margin: auto;
+	}
+
+	h2 {
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+
+	.gallery-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+		gap: 20px;
+	}
+
+	.gallery-item {
+		text-align: center;
+	}
+
+	.gallery-item a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.gallery-item img {
+		width: 100%;
+		height: 200px;
+		object-fit: cover;
+		border-radius: 8px;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+		transition: transform 0.2s ease;
+	}
+
+	.gallery-item img:hover {
+		transform: scale(1.03);
+	}
+
+	.caption {
+		margin-top: 0.5rem;
+		font-size: 1rem;
+	}
+</style>
+  <h2>Gallery</h2>
+<div class="gallery-grid">
+	<div class="gallery-item">
+		<a href="/images/gallery/slate-heart.jpg" target="_blank">
+			<img src="/images/gallery/slate-heart.jpg" alt="Engraved Slate Heart">
+			<div class="caption">Engraved Slate Heart</div>
+		</a>
+	</div>
+	<div class="gallery-item">
+		<a href="/images/gallery/basswood-sign.jpg" target="_blank">
+			<img src="/images/gallery/basswood-sign.jpg" alt="Basswood Sign">
+			<div class="caption">Basswood Sign</div>
+		</a>
+	</div>
+	<div class="gallery-item">
+		<a href="/images/gallery/leather-keyrings.jpg" target="_blank">
+			<img src="/images/gallery/leather-keyrings.jpg" alt="Leather Keyrings">
+			<div class="caption">Leather Keyrings</div>
+		</a>
+	</div>
+	<div class="gallery-item">
+		<a href="/images/gallery/ceramic-mugs.jpg" target="_blank">
+			<img src="/images/gallery/ceramic-mugs.jpg" alt="Ceramic Cups">
+			<div class="caption">Custom Ceramic Cups</div>
+		</a>
+	</div>
+	<div class="gallery-item">
+		<a href="/images/gallery/glass-trophy.jpg" target="_blank">
+			<img src="/images/gallery/glass-trophy.jpg" alt="Glass Trophy">
+			<div class="caption">Engraved Glass Trophy</div>
+		</a>
+	</div>
+	<div class="gallery-item">
+		<a href="/images/gallery/aluminium-card.jpg" target="_blank">
+			<img src="/images/gallery/aluminium-card.jpg" alt="Aluminium Business Card">
+			<div class="caption">Aluminium Business Card</div>
+		</a>
+	</div>
+</div>
