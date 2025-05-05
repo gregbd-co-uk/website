@@ -15,16 +15,14 @@
 				$("#header").load("/header.html");
 				$("#content").load("content.html");
 				$("#footer").load("/footer.html");				
-				switch (document.location.pathname){
-					case "/":
+				switch (document.location.pathname.replace("/", "")){
+					case "":
 						t = "Home";
 						break;
-					case "/contact":
-					case "/contact/":
+					case "contact":
 						t = "Contact us";
 						break;
-					case "/gallery":
-					case "/gallery/":
+					case "gallery":
 						t = "Product Gallery";
 						break;
 					default:
