@@ -1,1 +1,26 @@
-../gregbd.co.uk/public/index.xml
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Greg Bespoke Designs</title>
+    <link>https://gregbd.co.uk/</link>
+    <description>Recent content on Greg Bespoke Designs</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 04 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gregbd.co.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>https://gregbd.co.uk/contact/</link>
+      <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://gregbd.co.uk/contact/</guid>
+      <description>Contact Us Have a custom idea or a question? We&amp;rsquo;d love to hear from you. Fill out the form below and we&amp;rsquo;ll get back to you soon.&#xA;Name:&#xA;Email:&#xA;Message:&#xA;Send Message&#xA;Alternatively, email us directly: contact@gregbd.co.uk</description>
+    </item>
+    <item>
+      <title>Gallery</title>
+      <link>https://gregbd.co.uk/gallery/</link>
+      <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://gregbd.co.uk/gallery/</guid>
+      <description>Gallery Explore a selection of our handcrafted, laser-cut, and engraved items. From elegant glass trophies to rustic slate signs, each piece is made with precision and care.&#xA;Engraved Slate Heart Basswood Sign Leather Keyrings Custom Ceramic Cups Glass Trophy Aluminium Business Card Want to see your idea come to life? Contact us to start your custom project.</description>
+    </item>
+  </channel>
+</rss>
